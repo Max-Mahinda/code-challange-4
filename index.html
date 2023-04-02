@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script1.js" defer></script>
+</head>
+<body>
+    <div class="user-cards" data-user-container></div>
+    <template data-user-template>
+        <div class="card">
+        <div class="title" data-title></div>
+        <div class="runtime" data-runtime></div>
+        <div class="capacity" data-capacity></div>
+        <div class="showtime" data-showtime></div>
+        <div class="ticket_sold" data-ticket_sold></div>
+        <div class="description" data-description></div>
+        <div class="available" data-available></div>
+        <img class="poster" data-poster/>
+        </div>
+    </template>
+
+    <div class="user-films" data-user-films></div>
+    <template data-film-tmp>
+        <div id="films">
+            <li class="film" data-film_title></li> 
+            <div class="avail" data-avail></div>
+        </div>
+    </template>
+</body>
+</html>
